@@ -1,5 +1,6 @@
 import React, { useEffect, useState, useRef } from 'react'
 import { useParams, Link } from 'react-router-dom'
+import { collection, query, orderBy, onSnapshot } from "firebase/firestore"
 import { db, auth } from '../firebase'
 import { 
   collection, 
