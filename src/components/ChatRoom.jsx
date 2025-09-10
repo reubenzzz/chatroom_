@@ -1,5 +1,20 @@
 import React, { useEffect, useState, useRef } from 'react'
-})
+import React, { useEffect, useState, useRef } from 'react'
+import { useParams, Link } from 'react-router-dom'
+import { db, auth } from '../firebase'
+import { 
+  collection, 
+  doc, 
+  addDoc, 
+  query, 
+  where, 
+  onSnapshot, 
+  orderBy, 
+  serverTimestamp, 
+  getDoc 
+} from 'firebase/firestore'
+import formatDate from '../utils/formatDate'
+
 
 
 const q = query(collection(db, 'messages'), where('roomId', '==', id), orderBy('createdAt', 'asc'))
