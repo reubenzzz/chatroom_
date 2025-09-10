@@ -12,7 +12,7 @@ import {
   serverTimestamp, 
   doc, 
   getDoc 
-} from 'firebase/firestore'
+} from "firebase/firestore"
 import formatDate from '../utils/formatDate'
 
 const ChatRoom = () => {
