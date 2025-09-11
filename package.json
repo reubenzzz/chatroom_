@@ -1,0 +1,25 @@
+{
+  "name": "chat-room",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "homepage": "https://AKSHAYKRISHNA012.github.io/Chat-Room-Application1",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "firebase": "^12.2.1",
+    "gh-pages": "^6.3.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0"
+  }
+}

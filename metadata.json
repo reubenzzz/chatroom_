@@ -1,0 +1,5 @@
+{
+  "name": "Chat Room",
+  "description": "A real-time chat application.",
+  "requestFramePermissions": []
+}
