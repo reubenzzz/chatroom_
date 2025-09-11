@@ -15,19 +15,19 @@ import { getAuth } from "firebase/auth";
 // =================================================================
 const firebaseConfig = {
 
-  apiKey: "AIzaSyAKKzuHQH0hn6UbcEipNtzpFftqR084S_s",
-
-  authDomain: "chat-room-52503.firebaseapp.com",
-
-  projectId: "chat-room-52503",
-
-  storageBucket: "chat-room-52503.firebasestorage.app",
-
-  messagingSenderId: "695986839118",
-
-  appId: "1:695986839118:web:d2bea7f21fa481d47e2d1f",
-
-  measurementId: "G-8B9Y89F92D"
+  apiKey: "AIzaSyDAf8foqtCO70uwhpWP_SGZtipujb9_lNs",
+  
+  authDomain: "chatroom-6564b.firebaseapp.com",
+  
+  projectId: "chatroom-6564b",
+  
+  storageBucket: "chatroom-6564b.firebasestorage.app",
+  
+  messagingSenderId: "1010610090222",
+  
+  appId: "1:1010610090222:web:36c92f45d4f0888d95c3ff",
+  
+  measurementId: "G-RFMHW3XMYR"
 
 };
 
