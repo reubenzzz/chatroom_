@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://AKSHAYKRISHNA012.github.io/Chat-Room-Application1",
+  "homepage": "https://reubenzzz.github.io/chatroom_",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
